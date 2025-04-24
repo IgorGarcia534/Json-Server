@@ -1,0 +1,59 @@
+
+{
+    "escola": {
+        "nome": "Escola Modelo",
+        "endereco": {
+            "rua": "Rua das Flores",
+            "numero": 123,
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "cep": "01000-000"
+        },
+        "alunos": [
+            {
+                "id": 1,
+                "nome": "João Silva",
+                "idade": 14,
+                "serie": "9º ano",
+                "disciplinas": ["Matemática", "Português", "Ciências"]
+            },
+            {
+                "id": 2,
+                "nome": "Maria Oliveira",
+                "idade": 13,
+                "serie": "8º ano",
+                "disciplinas": ["História", "Geografia", "Inglês"]
+            }
+        ],
+        "professores": [
+            {
+                "id": 1,
+                "nome": "Carlos Pereira",
+                "disciplina": "Matemática",
+                "anosDeExperiencia": 10
+            },
+            {
+                "id": 2,
+                "nome": "Ana Costa",
+                "disciplina": "Português",
+                "anosDeExperiencia": 8
+            }
+        ],
+        "turmas": [
+            {
+                "id": 1,
+                "nome": "Turma A",
+                "serie": "9º ano",
+                "idProfessor": 1,
+                "alunos": [1]
+            },
+            {
+                "id": 2,
+                "nome": "Turma B",
+                "serie": "8º ano",
+                "idProfessor": 2,
+                "alunos": [2]
+            }
+        ]
+    }
+}
